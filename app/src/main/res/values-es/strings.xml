@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tour Guide: Barcelona</string>
+    <string name="category_churches">Iglesias</string>
+    <string name="category_ice_cream_shops">Heladerías</string>
+    <string name="category_shops">Tiendas</string>
+    <string name="category_hotels">Hoteles</string>
+    <string name="category_bakeries">Panaderías</string>
+</resources>

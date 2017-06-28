@@ -1,0 +1,8 @@
+<resources>
+    <string name="category_hotels">Hotels</string>
+    <string name="app_name">Tour Guide: Barcelona</string>
+    <string name="category_churches">Churches</string>
+    <string name="category_ice_cream_shops">Ice Cream Shops</string>
+    <string name="category_shops">Shops</string>
+    <string name="category_bakeries">Bakeries</string>
+</resources>
