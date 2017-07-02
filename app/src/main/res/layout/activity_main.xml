@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,24 +12,34 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/hotels"
             style="@style/CategoryItem"
             android:text="@string/category_hotels" />
 
         <TextView
+            android:id="@+id/bakeries"
             style="@style/CategoryItem"
             android:text="@string/category_bakeries" />
 
         <TextView
+            android:id="@+id/ice_cream"
             style="@style/CategoryItem"
             android:text="@string/category_ice_cream_shops" />
 
         <TextView
+            android:id="@+id/churches"
             style="@style/CategoryItem"
             android:text="@string/category_churches" />
 
         <TextView
+            android:id="@+id/shops"
             style="@style/CategoryItem"
             android:text="@string/category_shops" />
+
+        <TextView
+            android:id="@+id/squares"
+            style="@style/CategoryItem"
+            android:text="@string/category_squares" />
 
     </LinearLayout>
 </ScrollView>
