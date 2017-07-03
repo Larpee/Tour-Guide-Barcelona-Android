@@ -7,20 +7,17 @@ package com.example.android.tourguidebarcelona;
 class Location {
     private static final int NO_IMAGE_INCLUDED = -1;
     private String mName;
-    private String mAddress;
-    private int mImageResourceId;
+    private int mImageResourceId = NO_IMAGE_INCLUDED;
 
     // Constructor for Locations with images
-    public Location(String mName, String mAddress, int mImageResourceId) {
+    public Location(String mName, int mImageResourceId) {
         this.mName = mName;
-        this.mAddress = mAddress;
         this.mImageResourceId = mImageResourceId;
     }
 
     // Constructor for Locations without images
-    public Location(String mName, String mAddress) {
+    public Location(String mName) {
         this.mName = mName;
-        this.mAddress = mAddress;
     }
 
     // Returns a boolean specifying if the Location has an image
@@ -34,10 +31,6 @@ class Location {
 
     public String getName() {
         return mName;
-    }
-
-    public String getAddress() {
-        return mAddress;
     }
 
     public int getImageResourceId() {
