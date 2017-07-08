@@ -15,14 +15,8 @@ public class MainActivity extends AppCompatActivity {
         View hotels = findViewById(R.id.hotels);
         hotels.setOnClickListener(createListenerForActivity(HotelsActivity.class));
 
-        View bakeries = findViewById(R.id.bakeries);
-        bakeries.setOnClickListener(createListenerForActivity(BakeriesActivity.class));
-
         View iceCream = findViewById(R.id.ice_cream);
         iceCream.setOnClickListener(createListenerForActivity(IceCreamActivity.class));
-
-        View churches = findViewById(R.id.churches);
-        churches.setOnClickListener(createListenerForActivity(ChurchesActivity.class));
 
         View shops = findViewById(R.id.shops);
         shops.setOnClickListener(createListenerForActivity(ShopsActivity.class));

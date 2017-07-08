@@ -19,6 +19,7 @@
         
         <activity
             android:name=".HotelsActivity"
+            android:label="@string/category_hotels"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -27,14 +28,7 @@
 
         <activity
             android:name=".ShopsActivity"
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-
-        <activity
-            android:name=".BakeriesActivity"
+            android:label="@string/category_shops"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -43,13 +37,7 @@
 
         <activity
             android:name=".IceCreamActivity"
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-        <activity
-            android:name=".ChurchesActivity"
+            android:label="@string/category_ice_cream_shops"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -58,6 +46,7 @@
 
         <activity
             android:name=".SquaresActivity"
+            android:label="@string/category_squares"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
